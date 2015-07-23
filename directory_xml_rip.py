@@ -21,11 +21,11 @@ import re
 # directory_xml_rip(path, reg_ex)
 
 
-####################################################################
+###################################################################
 # Set the path containing xml files for all the plant services
 path = r'C:\Users\cb12041\Desktop\Back up\all_XML'
 reg_ex = '<Units>(.+)</Units>'
-####################################################################
+###################################################################
 
 # walking through xml files and using regex to grab units
 def directory_xml_rip(path, reg_ex):
