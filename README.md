@@ -5,7 +5,7 @@
 ###directory_xml_rip
 
 Python script to walk through all xml files in a directory
-and extract the content from a user selected xml element and write
+and extract the content from a user selected xml element and writes
 it into a text file.
 
 Input: A python raw string which is the full path to the directory of xml
